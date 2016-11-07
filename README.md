@@ -106,6 +106,8 @@ El proyecto se ha instalado correctamente y corre las pruebas base.
 
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins7.PNG)
 
+Se pueden agregar plugins. Como se pudo notar ya se habían instalado los plugins github plugin, cobertura plugin, html publisher plugin.
+
 
 ## Pruebas 
 A continuación se presentan los servicios que se probarán.
@@ -237,6 +239,16 @@ En general se puede apreciar que cada test logra una función específica: <br>
 
 <b>test_jenkins_service_remove_file: </b>Se encarga de eliminar todos los archivos que no sean de tipo oculto o directorio. Se verifica que el método cumpla su funcionalidad a través de la consulta de todos los archivos, la cual debería estar vacía.
 
+## Ejecutar las pruebas
+Para ejecutar las pruebas se debe realizar los siguientes pasos: <br>
+
+* Se debe tener en cuenta que ya se enlazó Jenkins con GitHub, por lo cual quedaría ingresar a la página web de Jenkins para poder realizar una prueba manual o esperar a que cumpla el tiempo períodico.
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
+
+Para los resultados se puede navegar por la zona de trabajo y buscar los xml que genera Jenkins una vez finalizadas las pruebas.
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
 
 ## Resultados
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
