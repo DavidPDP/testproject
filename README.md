@@ -79,31 +79,31 @@ Con lo anterior se finaliza la pre-configuración del entorno de trabajo.
 Para esto procedemos a ingresar al sitio web de Jenkins, como se definió anteriormente, Jenkins quedó atendiendo por el puerto 8080.
 
 Esta es la vista general del sitio web de Jenkins.
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins1.PNG)
 
 Se procede a crear un proyecto.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins2.PNG)
 
 Se procede a enlazar el Jenkins con el repositorio por medio de la URL del repositorio.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins3.PNG)
 
 Se procede a configurar el tiempo de ejecución periodica.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins4.PNG)
 
 Se procede a ingresar el comando de ejecución con el archivo que contiene el test.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins5.PNG)
 
 Se procede a ingresar la ruta del fichero XML donde se guardará la traza del test.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins6.PNG)
 
 El proyecto se ha instalado correctamente.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins7.PNG)
 
 
 ## Pruebas 
@@ -233,4 +233,4 @@ def test_jenkins_service_remove_file(client):
 ## Resultados
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
 
-![alt text]()
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins8.PNG)
