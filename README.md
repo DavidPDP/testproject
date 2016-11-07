@@ -241,12 +241,17 @@ En general se puede apreciar que cada test logra una función específica: <br>
 ## Resultados
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
 
+Se puede detallar los resultados en cuanto a cobertura del código probado, se debe tener en cuenta que no se logró el 100% de la cobertura en el archivo files.py debido a que tiene implementado todos los contratos aún de los métodos que solo se tienen la descripción.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins5.PNG)
 
+Se puede ver un balance gráfico entre la tendencia de la cobertura que se ha abarcado como también la tendencia de los resultados de las pruebas.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins6.PNG)
 
+Se puede observar que todos los métodos cumplieron con las pruebas.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins12.PNG)
 
+Se puede observar un resumen de todos los archivos con los que se probaron.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins8.PNG)
 
+Se puede apreciar el XML que muestra todos los métodos a los que se llamó durante las pruebas.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
