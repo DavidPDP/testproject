@@ -234,8 +234,3 @@ def test_jenkins_service_remove_file(client):
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
 
 ![alt text]()
-
-
-
-
->>>>>>> 4db12a9353770a38458e0801c79fb6ec64d99fd4
