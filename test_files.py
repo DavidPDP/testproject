@@ -160,9 +160,6 @@ def test_jenkins_service_remove_file(client):
         assert "fileJenkinsTest5" not in execute1.data
 
 
-        #Finaliza el test de los servicios, se debe tener en cuenta que los otros request no se encuentran implementados
-        #Lo cual significa que no ejercen ninguna acción, por lo tanto no se necesitan probar por el momento
-
         
 
 
