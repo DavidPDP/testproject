@@ -108,6 +108,10 @@ El proyecto se ha instalado correctamente y corre las pruebas base.
 
 Se pueden agregar plugins. Como se pudo notar ya se habían instalado los plugins github plugin, cobertura plugin, html publisher plugin.
 
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins15.PNG)
+
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins16.PNG)
 
 ## Pruebas 
 A continuación se presentan los servicios que se probarán.
@@ -244,11 +248,11 @@ Para ejecutar las pruebas se debe realizar los siguientes pasos: <br>
 
 * Se debe tener en cuenta que ya se enlazó Jenkins con GitHub, por lo cual quedaría ingresar a la página web de Jenkins para poder realizar una prueba manual o esperar a que cumpla el tiempo períodico.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins13.PNG)
 
 Para los resultados se puede navegar por la zona de trabajo y buscar los xml que genera Jenkins una vez finalizadas las pruebas.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins14.PNG)
 
 ## Resultados
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
