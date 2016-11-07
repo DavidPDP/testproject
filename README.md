@@ -79,6 +79,7 @@ Con lo anterior se finaliza la pre-configuración del entorno de trabajo.
 Para esto procedemos a ingresar al sitio web de Jenkins, como se definió anteriormente, Jenkins quedó atendiendo por el puerto 8080.
 
 Esta es la vista general del sitio web de Jenkins.
+
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins1.PNG)
 
 Se procede a crear un proyecto.
@@ -233,4 +234,4 @@ def test_jenkins_service_remove_file(client):
 ## Resultados
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins8.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
