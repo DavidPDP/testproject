@@ -4,6 +4,14 @@ import json
 from files_commands import get_all_files, add_file, remove_file, get_recently_files
 
 app = Flask(__name__)
+
+#default configurations
+app.config.from_object('settings.development')
+print("Debug before " + str(app.config['DEBUG']))
+#overide default configurations at file specified by USERMGT_SETTINGS environment variable
+app.config.from_envvar('USERMGT_SETTINGS', silent=True)
+print("Debug after " + str(app.config['DEBUG']))
+
 api_url = '/v1.0'
 
 @app.route(api_url+'/files',methods=['POST'])
