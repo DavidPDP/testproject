@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# testproject
-=======
 # Segundo Parcial Jenkins
 
 <b>Autor:</b> Johan David Ballesteros<br>
