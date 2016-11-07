@@ -31,7 +31,7 @@ Y ejecutar:
 -----------
 
 #Desarrollo Parcial
-A continuación se muestra el desarrollo del segundo parcial, como supuestos para este desarrollo se tiene instalado CentOS 6.8 y la fecha del Servidor se encuentra actualizada.
+A continuación se muestra el desarrollo del segundo parcial, como supuestos para este desarrollo se tiene instalado CentOS 6.8, la fecha del Servidor se encuentra actualizada e instalado las dependencias de GitHub.
 
 ##Configuraciones Iniciales
 Primero se realiza la configuración del entorno de Jenkins, para esto se realizó los siguientes pasos. <br>
@@ -107,6 +107,7 @@ El proyecto se ha instalado correctamente y corre las pruebas base.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins7.PNG)
 
 Se pueden agregar plugins. Como se pudo notar ya se habían instalado los plugins github plugin, cobertura plugin, html publisher plugin.
+
 
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins15.PNG)
 
@@ -263,11 +264,14 @@ Se puede detallar los resultados en cuanto a cobertura del código probado, se d
 Se puede ver un balance gráfico entre la tendencia de la cobertura que se ha abarcado como también la tendencia de los resultados de las pruebas.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins6.PNG)
 
+
 Se puede observar que todos los métodos cumplieron con las pruebas.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins12.PNG)
 
+
 Se puede observar un resumen de todos los archivos con los que se probaron.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins8.PNG)
+
 
 Se puede apreciar el XML que muestra todos los métodos a los que se llamó durante las pruebas.
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
