@@ -95,15 +95,15 @@ Se procede a configurar el tiempo de ejecución periodica.
 
 Se procede a ingresar el comando de ejecución con el archivo que contiene el test.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins5.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins10.PNG)
 
 Se procede a ingresar la ruta del fichero XML donde se guardará la traza del test.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins6.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins11.PNG)
 
 El proyecto se ha instalado correctamente.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins7.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins12.PNG)
 
 
 ## Pruebas 
