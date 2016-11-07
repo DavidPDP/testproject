@@ -102,9 +102,9 @@ Se procede a ingresar la ruta del fichero XML donde se guardará la traza del te
 
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins11.PNG)
 
-El proyecto se ha instalado correctamente.
+El proyecto se ha instalado correctamente y corre las pruebas base.
 
-![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins12.PNG)
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins7.PNG)
 
 
 ## Pruebas 
@@ -225,8 +225,28 @@ def test_jenkins_service_remove_file(client):
         #Finaliza el test de los servicios, se debe tener en cuenta que los otros request no se encuentran implementados
         #Lo cual significa que no ejercen ninguna acción, por lo tanto no se necesitan probar por el momento
 ```
+En general se puede apreciar que cada test logra una función específica: <br>
+
+<b>test_jenkins_service_create_fail:</b> Se encarga de crear dos formatos tipo JSON con atributos vaciós, esto permite verificar si el método permite crear archivos incompletos, lo cual no debería. Debido a que se definió un contrato de transacción de datos en el cual se específica que para crear un nuevo archivo se necesitan obligatoriamente el nombre del archivo y el contenido del mismo.
+
+<b>test_jenkins_service_create:</b> Se encarga de crear cinco formatos tipo JSON bien diligenciados, por lo tanto el método debe permitir la creación de estos. Se verifica averiguando el contenido de cada archivo que se creó. Por lo tanto si no se crearon bien entonces el método no pasará las pruebas.
+
+<b>test_jenkins_service_read_recent_file: </b> Se encarga de traer los últimos tres archivos ingresados al sistema. Por lo tanto aprovecha que la anterior prueba se corrió para verificar que efectivamente se puede consultar los archivos recientes.
+
+<b>test_jenkins_service_get_all_files: </b> Se encarga de realizar la misma funcionalidad que la anterior prueba, pero para este caso se trae todos los archivos que se hayan ingresado en la carpeta Jenkins.
+
+<b>test_jenkins_service_remove_file: </b>Se encarga de eliminar todos los archivos que no sean de tipo oculto o directorio. Se verifica que el método cumpla su funcionalidad a través de la consulta de todos los archivos, la cual debería estar vacía.
+
 
 ## Resultados
 A continuación se muestran y explican los resultados obtenidos tras realizadas las pruebas.
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins5.PNG)
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins6.PNG)
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins12.PNG)
+
+![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins8.PNG)
 
 ![alt text](https://github.com/DavidPDP/testproject/blob/master/imagenes/parcialJenkins9.PNG)
